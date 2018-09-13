@@ -4,7 +4,7 @@ module Api
     class UsersController < ApplicationController
 
       def index
-        render json: User.includes(:games), include: ['games']
+        render json: User.all
       end
 
       def create

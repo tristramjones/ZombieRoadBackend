@@ -4,7 +4,7 @@ module Api
     class GamesController < ApplicationController
 
       def index
-        render json: Game.includes(:user), include: ['users']
+        render json: Game.all
       end
 
       def create
@@ -20,7 +20,7 @@ module Api
       def game_params
         params.permit(:score, :user_id)
       end
-      
+
     end
   end
 end
