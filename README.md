@@ -1,3 +1,5 @@
+![zombie-road](https://user-images.githubusercontent.com/39240428/47953208-15b6c280-df40-11e8-83c7-1d2894811f55.png)
+
 # ZombieRoad backend
 This is a single player side scrolling game. Guide the puppy down ZombieRoad and avoid getting infected by zombies!
 
